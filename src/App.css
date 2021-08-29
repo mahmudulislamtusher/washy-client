@@ -1,0 +1,30 @@
+.brand-btn {
+  background: #111430;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 45px;
+  font-size: 1em;
+}
+
+.brand-text {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.brand-secondary {
+  color: #5628AC;
+}
+.brand-primary {
+  color: #171B4E;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashboardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

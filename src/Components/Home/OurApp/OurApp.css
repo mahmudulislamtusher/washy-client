@@ -1,0 +1,56 @@
+.ourApp{
+    width: 980px;
+    height: 620px;
+    margin: 0 auto;
+    margin-top: 100px !important;
+    position: relative;
+}
+.mobileApp{
+    margin-left: 150px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    background: #fff;
+    z-index: 100;
+}
+.getStarted{
+    background: #5628AC;
+    color: #fff;
+    font-weight: bold;
+}
+.getStarted:hover{
+    color: #fff;
+}
+.appDescription{
+    color: #9BA3AC;
+    line-height: 35px;
+}
+.googlePlay{
+    background: #fe702333;
+    color: #FE6F23;
+    padding: 10px;
+    width: 180px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.appleStore{
+    background: #8a6afe44;
+    color: #896AFE;
+    padding: 10px;
+    width: 180px;
+    font-weight: bold;
+}
+.appCircle{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #8E2DE2;
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    bottom: -55px;
+    right: -100px;
+    z-index: -100;
+}
+

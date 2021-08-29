@@ -1,0 +1,156 @@
+.footerSection {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
+.footerContent {
+  position: absolute;
+  z-index: 100000;
+  bottom: 0;
+  color: #fff;
+}
+
+.footerCircleOne{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(to left bottom, #14b274, #2fc184, #43d095, #55dfa6, #66eeb7);
+  top: 150px;
+  left: 22px;
+}
+.footerCircleTwo{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right bottom, #ed5bc3, #f070cb, #f383d2, #f696da, #f9a7e1);
+  top: 18px;
+  right: 22px;
+}
+.footerCircleThree{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right bottom, #ed5bc3, #f070cb, #f383d2, #f696da, #f9a7e1);
+  left: -280px;
+  bottom: 180px;
+}
+.footerCircleFour{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right bottom, #ff7a35, #ff8648, #ff915b, #ff9d6d, #fea87f);
+  bottom: 50px;
+  right: -360px;
+}
+.subscriptionArea{
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+  background: #fff;
+  color: #000;
+  padding: 20px 80px 20px 80px;
+  border-radius: 20px;
+  width: 750px;
+  position: absolute;
+  left: -220px;
+  top: -300px;
+}
+.footerLogo{
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.footerLogo img {
+  width: 200px;
+  height: 80px;
+}
+
+.footerNav {
+  overflow: hidden;
+}
+.footerNav a{
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footerNav a.active {
+  font-weight: bold;
+}
+.footerSocialIcons{
+    font-size: 25px;
+    
+}
+.facebook{
+  margin-right: 30px;
+  color: #4267B2;
+  background: #fff;
+  padding: 2px 1px 7px 9px;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+}
+.twitter{
+  margin-right: 30px;
+  color: #1DA1F2;
+  background: #fff;
+  padding: 2px 1px 7px 9px;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+}
+.linkedIn{
+  margin-right: 30px;
+  color: #0077b5;
+  background: #fff;
+  padding: 0px 11px 10px 9px;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+}
+
+.box2 {
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  z-index: 1;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box2::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 600px;
+  position: absolute;
+  top: 26%;
+  transform: skewY(8deg);
+  background-image: linear-gradient(
+    to right bottom,
+    #5327aa,
+    #5b30b0,
+    #6439b6,
+    #6c42bd,
+    #744bc3,
+    #744bc3,
+    #744bc3,
+    #744bc3,
+    #6c42bd,
+    #6439b6,
+    #5b30b0,
+    #5327aa
+  );
+  z-index: 2;
+}

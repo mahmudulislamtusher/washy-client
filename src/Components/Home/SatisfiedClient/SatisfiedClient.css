@@ -1,0 +1,64 @@
+.satisfiedClient{
+}
+.carWashed{
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.waterSaved{
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.happyCustomer{
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.carWashed h4{
+    background-image: linear-gradient(to right, #fdb7e8, #f9a1de, #f489d4, #ef71c9, #ea55be);
+    padding: 50px 5px 50px 5px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.waterSaved h4{
+    background-image: linear-gradient(to right, #62edb5, #50dba1, #3dca8d, #27b87a, #04a767);
+    padding: 50px 5px 50px 5px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.happyCustomer h4{
+    background-image: linear-gradient(to right, #feb493, #ffa57a, #ff9562, #ff8649, #fd762d);
+    padding: 50px 5px 50px 5px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;   
+}
+
+.numberCounter p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.bottomSide {
+    height:220px;
+    width: 100%;
+    background-color: #5628ac;
+    margin-top: -100px;
+}
+.bottomSide p{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+    font-size: 18px;
+}

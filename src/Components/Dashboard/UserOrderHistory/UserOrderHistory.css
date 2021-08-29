@@ -1,0 +1,10 @@
+.orderIdentity {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.orderIdentity div {
+    background: #FFE3E3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
